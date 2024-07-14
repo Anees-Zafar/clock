@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0%;
+
+}
+
+.container{
+
+      width: 100vw;
+      height: 100vh ;
+      background-image: linear-gradient(rgb(32, 7, 145), rgb(131, 131, 61));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.clock{
+    position: relative;
+
+    width: 40vw;
+    height: 90vh;
+    background-image: url(clockimg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+#hour{
+        width: 1vw;
+        height:20vh ;
+        background-color: black;
+         position: absolute; 
+        top: 26.5%;
+        left: 48.5%;
+        transform-origin: bottom;
+}
+#minute{
+    width: .7vw;
+        height:25vh ;
+        background-color: rgb(16, 236, 16);
+        position: absolute; 
+        top: 21%;
+        left: 48.5%;
+        transform-origin: bottom;
+}
+
+#second{
+    width: .3vw;
+    height:35vh ;
+    background-color: rgb(241, 10, 10);
+    position: absolute;
+    top: 10%;
+    left: 49%;
+    transform-origin: bottom;
+} 
